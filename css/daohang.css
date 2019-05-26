@@ -652,6 +652,8 @@ h1,h2,h3,h4,h5,h6,ul,li{
     height: 440px;
     margin: auto;
     margin-top: 40px;
+    position: relative;
+
 }
 .hotlink .hotlinkone{
     height: 50px;
@@ -692,9 +694,11 @@ h1,h2,h3,h4,h5,h6,ul,li{
 .hotlinktwo{
     width: 1198px;
     height: 360px;
-
     overflow: hidden;
     margin: auto;
+    position: absolute;
+    left: 0;
+    top: 50px;
 }
 .hotlinktwo .fly1{
     width: 20%;
